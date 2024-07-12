@@ -15,7 +15,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: [https://project-management-system-okod.vercel.app/],
+    origin: ["https://project-management-system-okod.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
