@@ -1,6 +1,6 @@
 {
   "version" : 2,
-  "name":"Project Management"
+  "name":"Project Management",
   "builds":[
     {"src" : "app.js" , "use" : "@vercel/node"}
   ],
