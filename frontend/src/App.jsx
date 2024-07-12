@@ -36,7 +36,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:5000/api/v1/user/getUser",
+          "https://project-management-system-ql7z-k84im3pl3.vercel.app/api/v1/user/getUser",
           {
             withCredentials: true,
           }
